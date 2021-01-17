@@ -1,0 +1,77 @@
+{
+	"common": {
+		"name": "tasmota",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Tasmota",
+		"titleLang": {
+			"en": "Tasmota",
+			"de": "Tasmota",
+			"ru": "Tasmota",
+			"pt": "Tasmota",
+			"nl": "Tasmota",
+			"fr": "Tasmota",
+			"it": "Tasmota",
+			"es": "Tasmota",
+			"pl": "Tasmota",
+			"zh-cn": "Tasmota"
+		},
+		"desc": {
+			"en": "get Values from Tasmota Devices",
+			"de": "get Values from Tasmota Devices",
+			"ru": "get Values from Tasmota Devices",
+			"pt": "get Values from Tasmota Devices",
+			"nl": "get Values from Tasmota Devices",
+			"fr": "get Values from Tasmota Devices",
+			"it": "get Values from Tasmota Devices",
+			"es": "get Values from Tasmota Devices",
+			"pl": "get Values from Tasmota Devices",
+			"zh-cn": "get Values from Tasmota Devices"
+		},
+		"authors": [
+			"Torsten Enkelmann <t.enkelmann@web.de>"
+		],
+		"keywords": [
+			"ioBroker",
+			"Tasmota"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "tasmota.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/tenkelmann/ioBroker.tasmota/master/admin/tasmota.png",
+		"readme": "https://github.com/tenkelmann/ioBroker.tasmota/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "protocols",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
